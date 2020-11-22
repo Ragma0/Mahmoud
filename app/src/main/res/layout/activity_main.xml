@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D1C454"
+    android:padding="25dp"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv_rezult"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="rezult"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/ed_num_1"
+        android:hint="@string/num_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        />
+    <EditText
+        android:id="@+id/ed_num_2"
+        android:hint="@string/num_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <Button
+            android:id="@+id/bt_plus"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            />
+        <Button
+            android:id="@+id/bt_minc"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <Button
+            android:id="@+id/bt_multy"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*"
+            />
+        <Button
+            android:id="@+id/bt_div"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+    </LinearLayout>
+
+</LinearLayout>
